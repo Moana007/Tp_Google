@@ -1,0 +1,62 @@
+ZZZZZZZZZ
+ZZZZZZZZZ
+      ZZZ
+    ZZZ
+   ZZZ
+ ZZZ
+ZZZZZZZZZ
+ZZZZZZZZZ
+________________________________________________________________________
+________________________________________________________________________
+
+--------------------------
+Zinsearch bot installation
+--------------------------
+Pour installer Zinsearch bot rapidement veuillez suivre la procédure :
+- Mettre dans un même dossier les fichiers : index.php, zinsearchbot.php et mysql.php
+- Modifier les paramètres de votre connexion mysql dans le fichier : mysql.php
+- Executez le code sql du fichier : table.sql pour créer la table mysql.
+
+
+
+
+
+
+
+IIIIIIIIIIII
+IIIIIIIIIIII
+    IIII
+    IIII
+    IIII
+    IIII
+    IIII
+    IIII
+    IIII
+IIIIIIIIIIII
+IIIIIIIIIIII
+________________________________________________________________________
+________________________________________________________________________
+
+-------------------------
+Documentation
+-------------------------
+Le code-source que vous avez téléchargé peut être redistribué GRATUITEMENT
+ ou être modifié à votre volonté.
+
+Ce code-source sert d'exemple dans la création d'un mini robot d'indexation en php.
+ Il peut s'averer que le code comporte des erreurs, vous pourrez en faire part sur
+ le site http://www.phpcs.com.
+
+------------------------
+ATTENTION
+------------------------
+Ce script php est une méthode lente et généralement pas très appropriée pour faire un robot d'indexation.
+Pour accélerer ce script remplacez le code :
+
+echo"<script language=\"JavaScript\">
+setTimeout(\"window.location='zinsearchbot.php?site=$_lien'\",3000); 
+</script>";
+
+par :
+
+header('Location: zinsearchbot.php?site='.$_lien.'');
