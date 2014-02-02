@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://codeigniter:8888/';
+$config['base_url']	= 'http://codeigniter:8888/CodeIgniter_2.1.4/';
 
 /*
 |--------------------------------------------------------------------------
